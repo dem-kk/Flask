@@ -1,0 +1,14 @@
+h1 {
+  color: #007700;/*文字色*/
+  text-align: center;/*文字-中央寄せ*/
+  padding: 0.5em 0.5em;/*上下の余白*/
+  border-top: solid 15px;/*上線*/
+  border-bottom: solid 15px;/*下線*/
+  border-image: linear-gradient(to right, #006400, #B6FF01, #B6FF01, #006400)1/1 0 15px;/*グラデーション*/
+}
+
+.pan {/*画像*/
+    position:relative;
+    top: 10px;
+    left:350px;
+}
