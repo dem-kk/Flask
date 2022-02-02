@@ -1,0 +1,30 @@
+body{
+	background:linear-gradient(90deg,rgba(225,165,0,0.6),rgba(225,225,0,0.6),rgba(225,215,0,0.6),rgba(225,165,0,0.6));
+	text-align: center;
+}
+
+div.form{
+ font-size: 40pt;
+ line-height:0px;
+ border-radius: 20px;
+ text-align: center;
+}
+
+.button {
+  display       : inline-block;
+  border-radius : 50%;          /* 角丸       */
+  font-size     : 18pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 12px 23px;   /* 余白       */
+  background    : #ff7f00;     /* 背景色     */
+  color         : #ffffff;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  opacity       : 1;           /* 透明度     */
+  transition    : .3s;         /* なめらか変化 */
+  box-shadow    : 3px 3px #666666;  /* 影の設定 */
+}
+.button:hover {
+  box-shadow    : none;        /* カーソル時の影消去 */
+  opacity       : 0.8;         /* カーソル時透明度 */
+}
